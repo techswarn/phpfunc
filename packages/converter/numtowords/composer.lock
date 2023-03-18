@@ -1,0 +1,75 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "548ff5fca537c98be524df90fbc0ec73",
+    "packages": [
+        {
+            "name": "nineteenfeet/nf-number-to-word",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/19FT/NFNumberToWord.git",
+                "reference": "639a6071746b6c928a01e915958e5b987c898475"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/19FT/NFNumberToWord/zipball/639a6071746b6c928a01e915958e5b987c898475",
+                "reference": "639a6071746b6c928a01e915958e5b987c898475",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "./Module.php",
+                    "./NumberToWords.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rob Allen",
+                    "email": "rob@19ft.com",
+                    "homepage": "http://19ft.com"
+                }
+            ],
+            "description": "ZF2 view helper to convert a number into its word representation. e.g. 1 => one",
+            "homepage": "http://github.com/nineteenfeet/NFNumberToWord",
+            "keywords": [
+                "conversion",
+                "number",
+                "view",
+                "view-helper",
+                "word",
+                "zend",
+                "zend-framework",
+                "zf2"
+            ],
+            "support": {
+                "issues": "https://github.com/19FT/NFNumberToWord/issues",
+                "source": "https://github.com/19FT/NFNumberToWord/tree/1.1.1"
+            },
+            "time": "2017-12-21T15:22:33+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.4",
+        "ext-json": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

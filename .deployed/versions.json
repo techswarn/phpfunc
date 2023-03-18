@@ -5,8 +5,8 @@
     "packageVersions": {},
     "actionVersions": {
       "converter/numtowords": {
-        "digest": "dc05ff21bb8ba60a89b0fdc0cc43151e3b3eeafd24a4c5fe64de7527455973c3",
-        "version": "0.0.4"
+        "digest": "eb0020b36e1423cb7d61c128e819aa16163041a84fc68c27f51fa5a0f93b3749",
+        "version": "0.0.8"
       }
     },
     "webHashes": {}

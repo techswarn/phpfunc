@@ -1,0 +1,62 @@
+{
+    "packages": [
+        {
+            "name": "nineteenfeet/nf-number-to-word",
+            "version": "1.1.1",
+            "version_normalized": "1.1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/19FT/NFNumberToWord.git",
+                "reference": "639a6071746b6c928a01e915958e5b987c898475"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/19FT/NFNumberToWord/zipball/639a6071746b6c928a01e915958e5b987c898475",
+                "reference": "639a6071746b6c928a01e915958e5b987c898475",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "time": "2017-12-21T15:22:33+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "classmap": [
+                    "./Module.php",
+                    "./NumberToWords.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rob Allen",
+                    "email": "rob@19ft.com",
+                    "homepage": "http://19ft.com"
+                }
+            ],
+            "description": "ZF2 view helper to convert a number into its word representation. e.g. 1 => one",
+            "homepage": "http://github.com/nineteenfeet/NFNumberToWord",
+            "keywords": [
+                "conversion",
+                "number",
+                "view",
+                "view-helper",
+                "word",
+                "zend",
+                "zend-framework",
+                "zf2"
+            ],
+            "support": {
+                "issues": "https://github.com/19FT/NFNumberToWord/issues",
+                "source": "https://github.com/19FT/NFNumberToWord/tree/1.1.1"
+            },
+            "install-path": "../nineteenfeet/nf-number-to-word"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
