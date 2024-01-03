@@ -1,11 +1,10 @@
 <?php
  
  # require_once('./../../../lib/utils.php');
-  include_once "utils.php";
+ # include_once "utils.php";
 
   function main(array $args) : array
   {
-      $name = $args["name"] ?? "stranger";
       $greeting = "hello there";
       
 #      $value = commonFunction();
@@ -17,6 +16,6 @@
       
       // $greeting = "Hello $name!";
       return ["body" => $greeting];
-      // return ["body" => $greeting ];
+
   }
 ?>
