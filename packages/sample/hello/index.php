@@ -1,21 +1,15 @@
 <?php
  
- # require_once('./../../../lib/utils.php');
- # include_once "utils.php";
+ include_once "utils.php";
 
   function main(array $args) : array
   {
-      $greeting = "hello there";
-      
-#      $value = commonFunction();
+      $greeting = "Good ";  
+      $value = commonFunction();
 
- #     echo $value;
-      // $greeting2 = testSameFolder($greeting);
-      error_log("Start");
-      echo "test message";
+      echo "$value";
+      $response = $greeting.$value;
       
-      // $greeting = "Hello $name!";
-      return ["body" => $greeting];
-
+      return ["body" => $response];
   }
 ?>
