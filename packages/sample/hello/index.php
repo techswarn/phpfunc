@@ -4,7 +4,7 @@
 
   function main(array $args) : array
   {
-      $greeting = "Very Good ";  
+      $greeting = "Very very Good ";  
       $value = commonFunction();
 
       echo "$value";
