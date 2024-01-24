@@ -1,6 +1,6 @@
 <?php
     function commonFunction()
     {
-        return "Afternoon";
+        return "Afternoon!!!!";
     }
 ?>
